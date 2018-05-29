@@ -1,0 +1,188 @@
+.col-lg-2 {
+
+    background-color: black;
+    color: white;
+    height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+#select-char {
+    color: white;
+    margin-top: 10px;
+
+}
+
+
+#select-enemy-char {
+    display: none;
+
+    color: white;
+
+}
+
+#your-char {
+color: white;
+display: none;
+margin-top: 10px;
+
+}
+
+#your-enemy {
+    color: white;
+    display: none;
+
+}
+
+
+
+
+#ls-select {
+    float: left;
+}
+
+#ds-select {
+    float: left;
+}
+
+#dm-select {
+    float: left;
+}
+
+#obw-chosen {
+    float: left;
+    display: none;
+
+}
+
+#ls-chosen {
+    float: left;
+    display: none;
+
+}
+
+#ds-chosen{
+    float: left;
+    display: none;
+
+}
+
+#dm-chosen {
+    float: left;
+    display: none;
+
+}
+
+#obw-enemy {
+    display: none;
+
+}
+
+#ls-enemy {
+    float: left;
+    display: none;
+
+}
+
+#ds-enemy{
+    float: left;
+    display: none;
+
+}
+
+#dm-enemy {
+    float: left;
+    display: none;
+
+}
+
+
+
+#obw-battle {
+    display: none;
+
+}
+
+#ls-battle {
+    float: left;
+    display: none;
+
+}
+
+#ds-battle{
+    float: left;
+    display: none;
+
+}
+
+#dm-battle {
+    float: left;
+    display: none;
+
+}
+
+
+
+#obw-attack {
+
+    display: none;
+}
+
+#ls-attack {
+
+    display: none;
+}
+
+#dm-attack {
+
+    display: none;
+}
+
+#ds-attack {
+
+    display: none;
+}
+
+
+
+
+#tracker {
+
+    color: white;
+    position: relative;
+    display: none;
+}
+
+
+#tracker-enemy {
+
+    color: white;
+    position: relative;
+    display: none;
+}
+
+#tracker-background {
+
+    background-color: black;
+    width: 250px;
+    display: none;
+}
+
+
+#restart {
+    display: none;
+    position: relative;
+    left: 30px;
+}
+
