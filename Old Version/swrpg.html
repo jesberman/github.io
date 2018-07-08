@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+    <head>
+
+
+        <title>
+            Star Wars RPG
+        </title>
+
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="assets/css/style(swrpg).css">
+
+
+
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+    </head>
+
+
+
+
+
+    <body background="assets/images/or.jpg">
+
+
+<h1>STAR WARS RPG!</h1>
+
+        <div class="container">
+
+                <div id="select-char">
+                        <h4>
+                            Select Your Character
+                        </h4>
+                </div>
+
+                <div id="your-char">
+                        <h4>
+                            Your Character
+                        </h4>
+                </div>
+                
+
+
+            <div id="select-fighter" class="row"> 
+
+                <div id="obw-select" class="col-lg-2">
+                  <img src="assets/images/obiwan.jpg">
+                  <p>Obiwan Kenobi</p>
+                  <p>HP: 130</p>
+                                  
+                </div>
+
+                <div id="ls-select" class="col-lg-2">
+                  <img src="assets/images/luke.jpg">
+                  <p>Luke Skywalker</p>
+                  <p>HP: 230</p>                
+                </div>
+
+                <div id="dm-select" class="col-lg-2">
+                    <img src="assets/images/maul.jpg">
+                    <p>Darth Maul</p>
+                    <p>HP: 100</p>                
+                </div>
+            
+                <div id="ds-select" class="col-lg-2">
+                    <img src="assets/images/palpatine.jpeg">
+                    <p>Darth Sidious</p>
+                    <p>HP: 99</p>                
+                </div>
+
+            </div>
+
+
+
+
+
+            <div id="chosen-fighter" class="row"> 
+
+                <div id="obw-chosen" class="col-lg-2">
+                    <img src="assets/images/obiwan.jpg">
+                    <p>Obiwan Kenobi</p>
+                    <p id="obw-hp">HP: 130</p>    
+
+                </div>
+    
+                <div id="ls-chosen" class="col-lg-2">
+                    <img src="assets/images/luke.jpg">
+                    <p>Luke Skywalker</p>
+                    <p id="ls-hp">HP: 230</p>    
+                </div>
+    
+                <div id="dm-chosen" class="col-lg-2">
+                    <img src="assets/images/maul.jpg">
+                    <p>Darth Maul</p>
+                    <p id="dm-hp">HP: 100</p>    
+                </div>
+                
+                <div id="ds-chosen" class="col-lg-2">
+                    <img src="assets/images/palpatine.jpeg">
+                    <p>Darth Sidious</p>
+                    <p id="ds-hp">HP: 99</p>    
+                </div>
+    
+            </div>
+
+            <div class="button" class="row">                           
+                <button id="obw-attack">Attack</button>
+            </div>
+
+            <div class="button" class="row">                           
+                <button id="ls-attack">Attack</button>
+            </div>            
+            
+            <div class="button" class="row">                           
+                <button id="dm-attack">Attack</button>
+            </div>            
+            
+            <div class="button" class="row">                           
+                <button id="ds-attack">Attack</button>
+            </div>
+
+
+            <div id="select-enemy-char">
+                <h4>
+                Select Your Enemy
+                </h4>
+            </div>
+
+            <div id="your-enemy">
+                    <h4>
+                    Your Enemy
+                    </h4>
+            </div>
+
+            <div id="select-enemy" class="row">
+
+                <div id="obw-enemy" class="col-lg-2">
+                    <img src="assets/images/obiwan.jpg">
+                    <p>Obiwan Kenobi</p>
+                    <p>HP: 130</p>                
+                </div>
+
+                <div id="ls-enemy" class="col-lg-2">
+                    <img src="assets/images/luke.jpg">
+                    <p>Luke Skywalker</p>
+                    <p>HP: 230</p>                
+                </div>
+
+                <div id="dm-enemy" class="col-lg-2">
+                  <img src="assets/images/maul.jpg">
+                  <p>Darth Maul</p>
+                  <p>HP: 100</p>                  
+                </div>
+
+                <div id="ds-enemy" class="col-lg-2">
+                    <img src="assets/images/palpatine.jpeg">
+                    <p>Darth Sidious</p>
+                    <p>HP: 99</p>                
+                </div>
+      
+            </div>
+
+
+
+            <div id="battle-enemy" class="row">
+
+                <div id="obw-battle" class="col-lg-2">
+                    <img src="assets/images/obiwan.jpg">
+                    <p>Obiwan Kenobi</p>
+                    <p id="obw-enemy-hp">HP: 130</p>   
+                </div>
+    
+                <div id="ls-battle" class="col-lg-2">
+                    <img src="assets/images/luke.jpg">
+                    <p>Luke Skywalker</p>
+                    <p id="ls-enemy-hp">HP: 230</p>                
+                </div>
+    
+                <div id="dm-battle" class="col-lg-2">
+                  <img src="assets/images/maul.jpg">
+                  <p>Darth Maul</p>
+                  <p id="dm-enemy-hp">HP: 100</p>                  
+                </div>
+    
+                <div id="ds-battle" class="col-lg-2">
+                    <img src="assets/images/palpatine.jpeg">
+                    <p>Darth Sidious</p>
+                    <p id="ds-enemy-hp">HP: 99</p>                
+                </div>
+          
+            </div>
+
+
+
+            <div id="tracker-background">
+                <p id="tracker">
+                </p>
+
+                <br>
+
+                <div id="restart" class="row">                           
+                    <button>Play Again?</button>
+                </div>
+                <br>
+                
+
+                <p id="tracker-enemy">
+                </p>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+          
+
+
+
+
+
+    <script src="assets/javascript/game(swrpg).js">
+    </script>
+
+
+    </body>
+
+
+
+
+</html>
