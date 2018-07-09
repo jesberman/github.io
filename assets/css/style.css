@@ -36,7 +36,9 @@ body {
     color: white;
 }
 
-
+.h4 {
+    color: white;
+}
 .h5 {
     color: white;
 }
@@ -121,14 +123,14 @@ body {
 
 #text2 {
 
-    top: 138%;
+    top: 130%;
     left: 23%;
 
 }
 
 #text3 {
 
-    top: 264%;
+    top: 244%;
     left: 23%;
 
 }
@@ -139,7 +141,7 @@ body {
 
     position: absolute;
     z-index: 8;
-    top: 280%;
+    top: 255%;
     left:30%;
 }
 .col-md-2 {

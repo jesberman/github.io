@@ -16,6 +16,7 @@
     <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery-1.10.2.min.js"></script>
 
     <meta charset="utf-8">
 
@@ -31,27 +32,27 @@
     <div id="sidebar">
         <img id="self" src="assets/images/pro.jpg">
 
-        <a href>
-            <h2 id="hA" class="h2">
+        <a href="#text1" id ="hA">
+            <h2 class="h2">
                 Jesse Berman
             </h2>
         </a>
 
         <br>
-        <a id="hB" href="#text2" >
+        <a  href="#text2" id="hB">
             <h5  class="h5">
                 About
             </h5>
         </a>
 
-        <a href>
-            <h5 id="hC" class="h5">
+        <a href="#text3"id="hC">
+            <h5  class="h5">
                 Portfolio
             </h5>
         </a>
 
-        <a href>
-            <h5 id="hD" class="h5">
+        <a href="#contact" id="hD">
+            <h5 class="h5">
                 Contact
             </h5>
         </a>
@@ -279,17 +280,21 @@
                     </h4>
                     <br>
                     <h4>
-                        Github Profile: https://github.com/jesberman
+                        <a href="https://github.com/jesberman" class="h4">
+                            Github Profile
+                        </a>
                     </h4>
                     <br>
                     <h4>
-                        LinkedIn Profile: https://www.linkedin.com/in/jesberman/
+                        <a href="https://www.linkedin.com/in/jesberman/" class="h4">
+                        LinkedIn Profile
+                        </a>
                     </h4>
 
                 </div>
                 <br>
                 <br>
-                <form action="/action_page.php" method="get">
+                <form action="mailto:jesberman@gmail.com" method="post" enctype="text/plain">
         
                     <h4 id="name">Name:</h4>  <input type="text" name="name" size=60>
                 
@@ -308,7 +313,9 @@
             
         
                     <button type="submit" class="btn btn-primary">Submit</button>
-        
+                    <button type="reset" class="btn btn-primary">Reset</button>
+
+
             
                 </form>
         
