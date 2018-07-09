@@ -109,7 +109,7 @@ body {
 #cursive {
 
     font-family: 'Allan';
-    font-size: 555%;
+    font-size: 455%;
     text-shadow: 2px 2px 4px #000000;
 
 
@@ -169,7 +169,7 @@ body {
     position: relative;
 
     bottom: 0%;
-    height: 100px;
+    height: auto;
     width: 140%;
     color: white;
     text-align: center;
@@ -184,7 +184,6 @@ body {
 .repos {
     color: white;
     position: relative;
-    left: 25%;
     text-shadow: 2px 2px 4px #000000;
 
 }
