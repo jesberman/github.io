@@ -51,7 +51,7 @@ body {
     left: 20%;
     background-color: rgb(46, 25, 168);
     width: 80%;
-    height: 497%;
+    height: 480%;
      z-index: 3;
     opacity: 0.55;
     filter: alpha(opacity=50); 
@@ -92,8 +92,29 @@ body {
     position: absolute;
     top: 370%;
 
+
 }
 
+#grass {
+
+    display: none;
+
+
+}
+
+#cove {
+
+    display: none;
+
+
+}
+
+#wave {
+
+    display: none;
+
+
+}
 
 .overtext {
     color: white;
@@ -106,7 +127,7 @@ body {
 }
 
 
-#cursive {
+.cursive {
 
     font-family: 'Allan';
     font-size: 455%;
@@ -181,6 +202,10 @@ body {
 
 }
 
+
+
+
+
 .repos {
     color: white;
     position: relative;
@@ -216,3 +241,481 @@ form {
 }
 
 
+
+
+@media screen and (max-width: 330px) and (min-width: 1px) {
+
+    #sidebar {
+    position: absolute;
+    width:170%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10%;
+
+
+    }
+
+
+    #self {
+        height: 60%;
+        width:50%;
+        left: 0%;
+        right: 0%;
+    }
+
+    #sky {
+        position: absolute;
+        top:100%;
+        width:170%;
+
+    }
+
+    #text1{
+        position: absolute;
+        top: 105%;
+        left: 40%;
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+    #snow {
+        position: absolute;
+        top:170%;
+        width:170%;
+
+    }
+
+    #text2{
+        position: absolute;
+        top: 170%;
+        width: 128%;
+        font-size: 70%;
+        left:30%;
+
+    }
+    #water {
+        position: absolute;
+        top:240%;
+        width:170%;
+
+    }
+
+    #text3{
+        position: absolute;
+        width: 140%;
+        font-size: 70%;
+        left:30%;
+        top: 240%;
+
+    }
+
+    #grid {
+        position: absolute;
+        left: 60%;
+        top:230%;
+        width: 90%;
+    }
+    #river {
+        position: absolute;
+        top:310%;
+        width:170%;
+
+    }
+
+
+
+    #text4{
+        position: absolute;
+        top: 310%;
+
+    }
+
+    #main-contact{
+        position: absolute;
+        top: 400%;
+
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+
+    #contact {
+
+        font-size: 80%;
+
+    }
+    .h2 {
+        font-size: 100%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    h4 {
+        font-size: 80%;
+    }
+
+    .h4 {
+        font-size: 80%;
+    }
+
+    .cursive{
+        font-size: 100%;
+        margin-top: -20%;
+
+
+
+    }
+
+    #bluescreen {
+
+        width: 170%;
+        left: 0%;
+        height: 675%;
+
+    }
+
+    .column{ 
+
+    }
+
+    .col-md-2{
+
+        width: 35%;
+        position: relative;
+        right: 40%;
+        margin-right:10%;
+        height: 150px;
+        margin-top: 100px;
+
+    }
+
+    .green {
+        font-size: 90%;
+    }
+
+    .repos {
+        font-size: 60%;
+
+    }
+
+    .green_box {
+
+
+    }
+
+    #sw {
+        position: absolute;
+        top: 0%;
+        left: 54%;
+
+    }
+
+
+    #darksky {
+
+        position: absolute;
+        top: 52%;
+        left: 54%;
+
+
+    }
+
+    #main-contact {
+        margin-left: 30%;
+        position: absolute;
+        top: 406%;
+    
+    }
+
+
+
+    input {
+
+    width: 420%;
+    }
+
+
+    textarea {
+        width: 420%;
+
+    }
+
+    .btn-primary {
+        margin-bottom: 10%;
+
+    }
+
+
+    #grass {
+        display: inline;
+        width: 170%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: 400%;
+    }
+
+    #cove {
+        display: inline;
+        width: 170%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: 490%;
+    }
+
+    #wave {
+        display: inline;
+        width: 170%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: 580%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 380px) and (min-width: 331px) {
+
+    #sidebar {
+    position: absolute;
+    width:170%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10%;
+
+
+    }
+
+
+    #self {
+        height: 60%;
+        width:50%;
+        left: 0%;
+        right: 0%;
+    }
+
+    #sky {
+        position: absolute;
+        top:100%;
+        width:170%;
+
+    }
+
+    #text1{
+        position: absolute;
+        top: 105%;
+        left: 40%;
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+    #snow {
+        position: absolute;
+        top:155%;
+        width:170%;
+
+    }
+
+    #text2{
+        position: absolute;
+        top: 160%;
+        width: 128%;
+        font-size: 70%;
+        left:30%;
+
+    }
+
+    #water {
+        position: absolute;
+        top:210%;
+        width:170%;
+
+    }
+
+    #text3{
+        position: absolute;
+        width: 140%;
+        font-size: 70%;
+        left:30%;
+        top: 215%;
+
+    }
+
+    #grid {
+        position: absolute;
+        left: 60%;
+        top:210%;
+        width: 90%;
+    }
+    #river {
+        position: absolute;
+        top:260%;
+        width:170%;
+
+    }
+
+
+
+    #text4{
+        position: absolute;
+        top: 310%;
+
+    }
+
+    #main-contact{
+        position: absolute;
+        top: 400%;
+
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+
+    #contact {
+        font-size: 80%;
+
+
+    }
+    .h2 {
+        font-size: 100%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    h4 {
+        font-size: 80%;
+    }
+
+    .h4 {
+        font-size: 80%;
+    }
+
+    .cursive{
+        font-size: 100%;
+        margin-top: -20%;
+
+
+
+    }
+
+    #bluescreen {
+
+        width: 170%;
+        left: 0%;
+        height: 475%;
+
+    }
+
+    .column{ 
+
+    }
+
+    .col-md-2{
+
+        width: 35%;
+        position: relative;
+        right: 40%;
+        margin-right:10%;
+        height: 150px;
+        margin-top: 100px;
+
+    }
+
+    .green {
+        font-size: 90%;
+    }
+
+    .repos {
+        font-size: 60%;
+
+    }
+
+    .green_box {
+
+
+    }
+
+    #sw {
+        position: absolute;
+        top: 0%;
+        left: 54%;
+
+    }
+
+
+    #darksky {
+
+        position: absolute;
+        top: 52%;
+        left: 54%;
+
+
+    }
+
+    #main-contact {
+        margin-left: 30%;
+        position: absolute;
+        top: 316%;
+    
+    }
+
+
+    input {
+
+    width: 420%;
+    }
+
+
+    textarea {
+        width: 420%;
+
+    }
+
+    .btn-primary {
+        margin-bottom: 10%;
+
+    }
+
+
+    #grass {
+        display: inline;
+        width: 170%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: 310%;
+    }
+
+    #cove {
+        display: inline;
+        width: 170%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: 365%;
+    }
+
+    #wave {
+        display: none;
+        width: 170%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: 422%;
+    }
+
+
+}

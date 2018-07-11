@@ -3,6 +3,8 @@
 
 <head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jesse Berman, Professional Web Developer</title>
 
 
@@ -79,9 +81,11 @@
                 <br>
                 <br>
                 <br>
-                    <p id="cursive">Front-end Development</p>
-                    <p id="cursive">Web Design</p>
-                    <p id="cursive">Content Writing</p>
+                    <div class="cursive">                    
+                        <p>Front-end Development</p>
+                        <p>Web Design</p>
+                        <p>Content Writing</p>
+                    </div>
 
 
             </div>
@@ -117,23 +121,23 @@
 
         <div>
             <image id="water"src="assets/images/water.jpeg" width="460" height="345">
-                <div class="overtext" id="text3">
-                        <h1>
-                            Portfolio
-                        </h1>
-                </div>
+            <div class="overtext" id="text3">
+                <h1>
+                    Portfolio
+                </h1>
+            </div>
             <div id="grid">
                 <div class="container">
             
                     <div class="row">
                         
-                        <div class="col-md-2">
-                            <a href="https://jesberman.github.io/giphy/">
-                                <img class="column" src="assets/images/giphy.gif" height= 65% width= 140%>
+                        <div class="col-md-2" id="giphy">
+                            <a href="https://jesberman.github.io/giphy/">                            
+                                <img class="column" src="assets/images/giphy.png" height= 65% width= 140% onmouseover="this.src='assets/images/giphy.gif';" onmouseout="this.src='assets/images/giphy.png';" />
                             </a>    
                 
                             <div class="green_box">
-                                    <h3>
+                                    <h3 class="green">
                                         Giphy Page                            
                                     </h3>
                                     <br>
@@ -156,11 +160,12 @@
                 
                         <div class="col-md-2">
                             <a href="https://jesberman.github.io/firebase-train/">
-                                <img class="column" src="assets/images/train.gif" height= 65% width= 140%>
+                                <img class="column" src="assets/images/train.jpg" height= 65% width= 140% onmouseover="this.src='assets/images/train.gif';" onmouseout="this.src='assets/images/train.jpg';" />
+
                             </a>    
                     
                             <div class="green_box">
-                                <h3>
+                                <h3 class="green">
                                     Train Schedule                            
                                 </h3>
                                 <br>
@@ -180,12 +185,12 @@
                         <br class="break">
             
             
-                        <div class="col-md-2">
+                        <div class="col-md-2" id=sw>
                             <a href="https://jesberman.github.io/starwarsrpg.github.io/">
-                                <img class="column" src="assets/images/sw2.gif" height= 65% width= 140%>
+                                <img class="column" src="assets/images/sw2.jpg" height= 65% width= 140% onmouseover="this.src='assets/images/sw2.gif';" onmouseout="this.src='assets/images/sw2.jpg';" />
                             </a>
                             <div class="green_box">
-                                <h3>
+                                <h3 class="green">
                                     Star Wars RPG
                                 </h3>
 
@@ -206,11 +211,11 @@
                         <div class="col-md-2">
                 
                             <a href="https://jesberman.github.io/triviagame.github.io/">
-                                <img class="column" src="assets/images/trivia.gif" height= 65% width= 140%>
+                                <img class="column" src="assets/images/trivia.jpg" height= 65% width= 140% onmouseover="this.src='assets/images/trivia.gif';" onmouseout="this.src='assets/images/trivia.jpg';" />
                             </a>
                 
                             <div class="green_box">
-                                <h3>
+                                <h3 class="green">
                                     Trivia Game
                                 </h3>
                                 <br>
@@ -233,10 +238,11 @@
                 
                         <div class="col-md-2">
                             <a href="https://jesberman.github.io/Psychic-Game/">
-                                <img  class="column" src="assets/images/psy1.gif" height= 65% width= 140%>
+                                <img class="column" src="assets/images/psy1.jpg" height= 65% width= 140% onmouseover="this.src='assets/images/psy1.gif';" onmouseout="this.src='assets/images/psy1.jpg';" />
+
                             </a>    
                             <div class="green_box">
-                                <h3>
+                                <h3 class="green">
                                     Psychic Game
                                 </h3>
                                 <br>
@@ -259,13 +265,12 @@
                 
             
             
-                        <div class="col-md-2">
+                        <div class="col-md-2" id="darksky">
                             <a href="https://jesberman.github.io/project1/">
-
-                                <img class="column" src="assets/images/weather2.gif" height= 65% width= 140%>
+                                <img class="column" src="assets/images/weather2.jpg" height= 65% width= 140% onmouseover="this.src='assets/images/weather2.gif';" onmouseout="this.src='assets/images/weather2.jpg';" />
                             </a>   
                             <div class="green_box">
-                                    <h3>
+                                    <h3 class="green">
                                         Weather / Music App
                                     </h3>
                                     <br>
@@ -320,16 +325,16 @@
                 <br>
                 <form action="mailto:jesberman@gmail.com" method="post" enctype="text/plain">
         
-                    <h4 id="name">Name:</h4>  <input type="text" name="name" size=60>
+                    <h4 id="name" class="input">Name:</h4>  <input type="text" name="name" size=60>
                 
                     <br>
                     <br>
             
-                    <h4>Email:</h4> <input type="text" name="email" size=60>
+                    <h4 class="input">Email:</h4> <input type="text" name="email" size=60>
             
                     <br>
                     <br>
-                    <h4>Message:</h4> <textarea rows="7" cols="63" >
+                    <h4 class="input">Message:</h4> <textarea rows="7" cols="63" >
             
                     </textarea>
             
@@ -347,9 +352,15 @@
         
             <image id="river"src="assets/images/river.jpeg" width="460" height="345">
         </div>
-
-
-
+        <div>
+            <image id="grass" src="assets/images/grass.jpeg" width="460" height="345">
+        </div>
+        <div>
+            <image id="cove" src="assets/images/cove.jpeg" width="460" height="345">
+        </div>
+        <div>
+            <image id="wave" src="assets/images/wave.jpeg" width="460" height="345">
+        </div>
 
         <script src="assets/javascript/logic.js">
         </script>

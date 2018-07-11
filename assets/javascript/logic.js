@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+
+
   // Add smooth scrolling to all links
   $("#hB").on('click', function (event) {
     // Prevent default anchor click behavior
@@ -101,5 +104,15 @@ $(document).ready(function () {
         } // End if
       });
     
+
+
+
+
+
+
+
+
+
+
 
 });
