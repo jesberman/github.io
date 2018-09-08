@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 
-
 <head>
 
     <title>
-
-        Jesse Berman - Professional Web Developer
+        Jesse Berman, Professional Web Developer
     </title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Allan" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <meta charset="utf-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://code.jquery.com/jquery.js"></script>
 
 
 </head>
@@ -27,230 +31,259 @@
 
 
 
+<body style="background-color: rgb(36, 37, 130);">
 
+    <!--******************************** Navbar*******************************-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body id="body2" background="assets/images/back.png">    
+    <div class="topnav" id="myTopnav" style="font-weight: bold; background-color:rgb(246, 76, 113); ">
+        <a href="index.html" class="active navbar-brand">
+            <h5 style="color:aliceblue; font-weight: bold;">Jesse Berman</h3>
+        </a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
-    <div id="Name">
-        <h2>
-            Jesse Berman
-        </h2>
+    <!--******************************** ********************************************-->
+
+    <!--****************************Jumbotron*******************************************-->
+    <div class="jumbotron" style="background-image: url('assets/images/water2.jpeg'); color: white; font-weight: bold; background-repeat: no-repeat; background-size: cover;">
+        <h1 class="display-4" style="color:white; font-weight: bold;">Portfolio</h1>
+        <hr class="my-4">
+        <h3 style="color: white; font-weight:bold; margin-bottom: 50px; text-align: left; line-height: 70px;">Please have a look at some of my past websites, designs, apps, and projects. Click on an image to go directly to
+            the app, or on the orange boxes to see the corresponding code in the GitHub repo:</h3>
+        <br>
+        <h3 style="color: white; font-weight:bold; margin-bottom: 50px; text-align: left;"></h3>
+
+        <table align="center">
+            <tr>
+                <td>
+                    <div style="margin-bottom: 30px; ">
+                        <a href="https://jesberman.github.io/firebase-train/">
+                            <img class="image-static" src="assets/images/train.jpg" onmouseover="this.src='assets/images/train.gif';" onmouseout="this.src='assets/images/train.jpg';"
+                                style="width: 200px; height: 200px; margin-right: 50px; margin-left: 50px;">
+                        </a>
+                        <a>
+                            <div id="green-one" class="green-box" style="background-color: rgb(120, 194, 173); width: 200px; height: 100px; padding-top: 15px;position: relative; left: 50px;">
+                                <h2 class="bold" style="color: white; ">
+                                    Train Scheduler
+                                </h2>
+                            </div>
+                            <div id="red-one" class="red-box" style=" display:none; background-color: rgb(246, 76, 113); width: 200px; height: 100px; padding-top: 3px;position: relative; left: 50px;">
+                                <h6 class="bold" style="color: white; ">
+                                    Site that allows the user to create an ongoing train schedule.  Made with Moment.js and Firebase.
+                                </h6>
+                            </div>
+                        </a>
+                        <br>
+                        <div id="orange-one" class="orange-box" style=" background-color: rgb(255, 95, 58); width: 200px; height: 50px; padding-top: 15px;position: relative; left: 50px;">
+                            <a href="https://github.com/jesberman/firebase-train">
+                                <h6 class="bold" style="color: white; ">
+                                    GitHub Repo
+                                </h6>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://jesberman.github.io/starwarsrpg.github.io/">
+                            <img class="image-static" src="assets/images/sw2.jpg" style="width: 200px; height: 200px;margin-right: 50px; margin-left: 50px;"
+                                onmouseover="this.src='assets/images/sw2.gif';" onmouseout="this.src='assets/images/sw2.jpg';">
+                        </a>
+                        <a>
+                            <div id="green-two" class="green-box" style="background-color: rgb(120, 194, 173); width: 200px; height: 100px; padding-top: 15px;position: relative; left: 50px;">
+                                <h2 class="bold" style="color: white; ">
+                                    Star Wars RPG
+                                </h2>
+                            </div>
+                            <div id="red-two" class="red-box" style=" display:none; background-color: rgb(246, 76, 113); width: 200px; height: 100px; padding-top: 15px;position: relative; left: 50px;">
+                                <h6 class="bold" style="color: white; ">
+                                    Role-playing game made with jQuery.  Pick a character and conquer your foes!
+                                </h6>
+                            </div>
+                        </a>
+                        <br>
+                        <div id="orange-two" class="orange-box" style=" background-color: rgb(255, 95, 58); width: 200px; height: 50px; padding-top: 15px;position: relative; left: 50px;">
+                            <a href="https://github.com/jesberman/unit-4-game">
+                                <h6 class="bold" style="color: white; ">
+                                    GitHub Repo
+                                </h6>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://jesberman.github.io/giphy/">
+                            <img class="image-static" src="assets/images/giphy.png" onmouseover="this.src='assets/images/giphy.gif';" onmouseout="this.src='assets/images/giphy.png';"
+                                style="width: 200px; height: 200px;margin-right: 50px; margin-left: 50px;">
+                        </a>
+                        <a>
+                            <div id="green-three" class="green-box" style="background-color: rgb(120, 194, 173); width: 200px; height: 100px; padding-top: 15px;position: relative; left: 50px;">
+                                <h2 class="bold" style="color: white; ">
+                                    Giphy Generator
+                                </h2>
+                            </div>
+                            <div id="red-three" class="red-box" style=" display:none; background-color: rgb(246, 76, 113); width: 200px; height: 100px; padding-top: 20px;position: relative; left: 50px;">
+                                <h6 class="bold" style="color: white; ">
+                                    Makes API calls to generate gifs of different animals.
+                                </h6>
+                            </div>
+                        </a>
+                        <br>
+                        <div id="orange-three" class="orange-box" style=" background-color: rgb(255, 95, 58); width: 200px; height: 50px; padding-top: 15px;position: relative; left: 50px;">
+                            <a href="https://github.com/jesberman/giphy">
+                                <h6 class="bold" style="color: white; ">
+                                    GitHub Repo
+                                </h6>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://jesberman.github.io/Psychic-Game/">
+                            <img class="image-static" src="assets/images/psy1.jpg" onmouseover="this.src='assets/images/psy1.gif';" onmouseout="this.src='assets/images/psy1.jpg';"
+                                style="width: 200px; height: 200px;margin-right: 50px; margin-left: 50px;">
+                        </a>
+                        <a>
+                            <div id="green-four" class="green-box" style="background-color: rgb(120, 194, 173); width: 200px; height: 100px; padding-top: 15px;position: relative; left: 50px;">
+                                <h2 class="bold" style="color: white; ">
+                                    Psychic Game
+                                </h2>
+                            </div>
+                            <div id="red-four" class="red-box" style=" display:none; background-color: rgb(246, 76, 113); width: 200px; height: 100px; padding-top: 30px;position: relative; left: 50px;">
+                                <h6 class="bold" style="color: white; ">
+                                    Simple Javascript game.  Guess the number to win.
+                                </h6>
+                            </div>
+                        </a>
+                        <br>
+                        <div id="orange-four" class="orange-box" style=" background-color: rgb(255, 95, 58); width: 200px; height: 50px; padding-top: 15px;position: relative; left: 50px;">
+                            <a href="https://github.com/jesberman/Psychic-Game">
+                                <h6 class="bold" style="color: white; ">
+                                    GitHub Repo
+                                </h6>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://jesberman.github.io/triviagame.github.io/">
+                            <img class="image-static" src="assets/images/trivia.jpg" onmouseover="this.src='assets/images/trivia.gif';" onmouseout="this.src='assets/images/trivia.jpg';"
+                                style="width: 200px; height: 200px;margin-right: 50px; margin-left: 50px;">
+                        </a>
+                        <a>
+                            <div id="green-five" class="green-box" style="background-color: rgb(120, 194, 173); width: 200px; height: 100px; padding-top: 30px;position: relative; left: 50px;">
+                                <h2 class="bold" style="color: white; ">
+                                    Trivia Game
+                                </h2>
+                            </div>
+                            <div id="red-five" class="red-box" style=" display:none; background-color: rgb(246, 76, 113); width: 200px; height: 100px; padding-top: 30px;position: relative; left: 50px;">
+                                <h6 class="bold" style="color: white; ">
+                                    Trivia game that uses JavaScript time intervals.
+                                </h6>
+                            </div>
+                        </a>
+                        <br>
+                        <div id="orange-five" class="orange-box" style=" background-color: rgb(255, 95, 58); width: 200px; height: 50px; padding-top: 15px;position: relative; left: 50px;">
+                            <a href="https://github.com/jesberman/triviagame.github.io">
+                                <h6 class="bold" style="color: white; ">
+                                    GitHub Repo
+                                </h6>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div style="margin-bottom: 30px;">
+                        <a href="https://jesberman.github.io/project1/">
+                            <img class="image-static" src="assets/images/weather2.jpg" onmouseover="this.src='assets/images/weather2.gif';" onmouseout="this.src='assets/images/weather2.jpg';"
+                                style="width: 200px; height: 200px;margin-right: 50px; margin-left: 50px;">
+                        </a>
+                        <a>
+                            <div id="green-six" class="green-box" style="background-color: rgb(120, 194, 173); width: 200px; height: 100px; padding-top: 15px;position: relative; left: 50px;">
+                                <h2 class="bold" style="color: white; ">
+                                    Weather / Music App
+                                </h2>
+                            </div>
+                            <div id="red-six" class="red-box" style=" display:none; background-color: rgb(246, 76, 113); width: 200px; height: 100px; padding-top: 15px;position: relative; left: 50px;">
+                                <h6 class="bold" style="color: white; ">
+                                    Group project designed to play music based on the weather the user is experiencing.
+                                </h6>
+                            </div>
+                        </a>
+                        <br>
+                        <div id="orange-six" class="orange-box" style=" background-color: rgb(255, 95, 58); width: 200px; height: 50px; padding-top: 15px;position: relative; left: 50px;">
+                            <a href="https://github.com/jesberman/project1">
+                                <h6 class="bold" style="color: white; ">
+                                    GitHub Repo
+                                </h6>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
 
 
-    <header id="banner2">
+
+    <!--*********************************************************************************-->
 
 
 
 
-        <nav>
-            <a href="contact.html">
-                Contact
-            </a>
-        </nav>
-        <nav>
-            <a href="portfolio.html">
-                Portfolio
-            </a>
-        </nav>
+    <!-- *********************************Footer*********************************** -->
+    <footer id="foot3" class="page-footer font-small cyan darken-3">
 
-
-        <nav>
-            <a href="index.html">
-                About
-            </a>
-       </nav>
-
-    </header>
-
-
-
-    <div id="nav_border">
-    </div>
-
-
-
-    <div id="main">
-        
-        <div id="about">
-
-            <h1 id="port">
-                Portfolio
-            </h1>
-
-        </div>
-
-
+        <!-- Footer Elements -->
         <div class="container">
 
-                <div class="row">
-        
-                    <div class="col-md-3">
-                        <a href="https://jesberman.github.io/giphy/">
-                            <img src="assets/images/giphy.gif" height= 100% width= 140%>
-                        </a>    
+            <!-- Grid row-->
+            <div class="row">
 
-                        <div class="green_box">
-                            <h3>
-                                Giphy Page                            
-                            </h3>
-                        </div>
-                    </div>
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
 
-
-
-
-                        <br class="break">
-                        <br class="break">
-                        <br class="break">
-                        <br class="break">
-
-                        <div class="col-md-3">
-                            <a href="https://jesberman.github.io/firebase-train/">
-                                <img src="assets/images/train.gif" height= 100% width= 140%>
-                            </a>    
-    
-                            <div class="green_box">
-                                <h3>
-                                    Train Schedule                            
-                                </h3>
-                            </div>
-                        </div>
-    
                 </div>
+                <!-- Grid column -->
 
-                <div class="col-md-3">
-                    <a href="https://jesberman.github.io/giphy/">
-                        <img src="assets/images/giphy.gif" height= 100% width= 140%>
-                    </a>    
-
-                    <div class="green_box">
-                        <h3>
-                            Giphy Page                            
-                        </h3>
-                    </div>
-                </div>
-        
-
-
-
-
-
-                <div class="row">
-        
-                    <div class="col-md-3">
-
-                        <a href="https://jesberman.github.io/triviagame.github.io/">
-                            <img src="assets/images/TriviaTime.jpg" height= 100% width= 140%>
-                        </a>
-
-                        <div class="green_box">
-                            <h3>
-                                Trivia Game
-                            </h3>
-                        </div>
-                    </div>
-
-                        <br class="break">
-                        <br class="break">
-                        <br class="break">
-                        <br class="break">
-
-
-
-                    <div class="col-md-3">
-                        <a href="https://jesberman.github.io/Psychic-Game/">
-                            <img src="assets/images/psychic.png" height= 100% width= 140%>
-                        </a>    
-                            <div class="green_box">
-                                <h3>
-                                    Psychic Game
-                                </h3>
-                            </div>
-                    </div>
-
-
-
-                        <br class="break">
-                        <br class="break">
-                        <br class="break">
-                        <br class="break">
-
- 
-                        <div class="row">
-        
-                                <div class="col-md-3">
-                                        <img src="assets/images/rock.png" height= 100% width= 140%>
-                                    <div class="green_box">
-                                        <h3>
-                                            Rock Paper Scissors Game
-                                        </h3>
-            
-                                    </div>
-                                </div>
-            
-                                    <br class="break">
-                                    <br class="break">
-                                    <br class="break">
-                                    <br class="break">
-            
-
-                                    <div class="col-md-3">
-                                        <a href="https://jesberman.github.io/starwarsrpg.github.io/">
-                                            <img src="assets/images/consular.jpg" height= 100% width= 140%>
-                                        </a>
-                                        <div class="green_box">
-                                            <h3>
-                                                Star Wars RPG
-                                            </h3>
-                
-                                        </div>
-                                    </div>
-
-
-
-
-            
-                                <br class="break">
-                                <br class="break">
-                                <br class="break">
-                                <br class="break">
-
-
-
+            </div>
+            <!-- Grid row-->
 
         </div>
-    
+        <!-- Footer Elements -->
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Jesse Berman</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- *************************************************************************** -->
 
 
 
-    </div>
+    <script src="assets/javascript/logic.js">
 
-
-
-
-
-
-
-
-
-
-
-    <div id="footer">
-
-
-        <p>
-            Copyright ©
-        </p>
-
-
-    </div>
-
+    </script>
 </body>
-
-
-
-
 
 
 </html>
