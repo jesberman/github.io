@@ -127,6 +127,27 @@ h3 {
 
 }
 
+.pagebreak {
+
+}
+
+#table-phone {
+    display: none;
+}
+
+@media only screen and (max-width: 325px) {
+
+    #table-phone {
+        display: block;
+    }
+
+    #table-desk {
+        display: none;
+    }
+
+}
+
+
 
 
 
@@ -173,6 +194,10 @@ h3 {
 .form-check{
     font-size: 20px;
 }
+
+
+
+
 
 @media screen and (max-width: 321px){
 
