@@ -135,7 +135,37 @@ h3 {
     display: none;
 }
 
-@media only screen and (max-width: 325px) {
+
+.about-text {
+    color: white;
+     font-weight:bold; 
+     margin-bottom: 50px; 
+     text-align:justify;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-text {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #table-phone{
+        position: relative;
+        left: 190px;
+    }
+}
+
+
+
+@media only screen and (max-width: 426px) {
+    #table-phone{
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 925px) {
 
     #table-phone {
         display: block;
