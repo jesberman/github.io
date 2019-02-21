@@ -70,6 +70,32 @@ $("#red-six").on("mouseout", function(){
 });
 
 
+// 
+
+$("#green-seven").on("mouseover", function(){
+    $("#green-seven").css("display", "none");
+    $("#red-seven").css("display", "block");
+});
+
+$("#red-seven").on("mouseout", function(){
+    $("#green-seven").css("display", "block");
+    $("#red-seven").css("display", "none");
+});
+
+
+$("#green-eight").on("mouseover", function(){
+    $("#green-eight").css("display", "none");
+    $("#red-eight").css("display", "block");
+});
+
+$("#red-eight").on("mouseout", function(){
+    $("#green-eight").css("display", "block");
+    $("#red-eight").css("display", "none");
+});
+
+
+
+// 
 $("#plus1").on("click", function(){
     $("#aboutUs1").css("display", "block");
     $("#minus1").css("visibility", "visible");
