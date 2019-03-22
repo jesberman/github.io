@@ -36,7 +36,7 @@ body{
   padding-right: 10%;
   padding-top: 100px;
   padding-bottom: 200px;
-  font-family: lato;
+  font-family: lato, Arial;
   color: #848484;
   font-size: 30px;
   font-weight: bold;
@@ -67,7 +67,7 @@ body{
   color: white; 
   text-decoration: none; 
   font-size: 30px;  
-  font-family: lato;
+  font-family: lato, Arial;
 }
 
 #banner{
