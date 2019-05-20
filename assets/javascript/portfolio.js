@@ -79,12 +79,14 @@ $("#portfolio-select-bar-1").click(function () {
   $("#portfolio-select-bar-3").addClass("inactive-select");
 
   $("#portfolio-site1").addClass("portfolio-appear");
+  $("#portfolio-site1a").addClass("portfolio-appear");
   $("#portfolio-site2").addClass("portfolio-appear");
   $("#portfolio-site3").addClass("portfolio-appear");
   $("#portfolio-site4").addClass("portfolio-appear");
   $("#portfolio-site5").addClass("portfolio-appear");
 
   $("#portfolio-site1").removeClass("portfolio-disappear");
+  $("#portfolio-site1a").removeClass("portfolio-disappear");
   $("#portfolio-site2").removeClass("portfolio-disappear");
   $("#portfolio-site3").removeClass("portfolio-disappear");
   $("#portfolio-site4").removeClass("portfolio-disappear");
@@ -100,12 +102,14 @@ $("#portfolio-select-bar-2").click(function () {
   $("#portfolio-select-bar-3").addClass("inactive-select");
 
   $("#portfolio-site1").addClass("portfolio-appear");
+  $("#portfolio-site1a").addClass("portfolio-disappear");
   $("#portfolio-site2").addClass("portfolio-disappear");
   $("#portfolio-site3").addClass("portfolio-disappear");
   $("#portfolio-site4").addClass("portfolio-disappear");
   $("#portfolio-site5").addClass("portfolio-disappear");
 
   $("#portfolio-site1").removeClass("portfolio-disappear");
+  $("#portfolio-site1a").removeClass("portfolio-appear");
   $("#portfolio-site2").removeClass("portfolio-appear");
   $("#portfolio-site3").removeClass("portfolio-appear");
   $("#portfolio-site4").removeClass("portfolio-appear");
@@ -123,12 +127,14 @@ $("#portfolio-select-bar-3").click(function () {
   $("#portfolio-select-bar-3").addClass("active-select");
 
   $("#portfolio-site1").addClass("portfolio-disappear");
+  $("#portfolio-site1a").removeClass("portfolio-disappear");
   $("#portfolio-site2").removeClass("portfolio-disappear");
   $("#portfolio-site3").removeClass("portfolio-disappear");
   $("#portfolio-site4").removeClass("portfolio-disappear");
   $("#portfolio-site5").removeClass("portfolio-disappear");
 
   $("#portfolio-site1").removeClass("portfolio-appear");
+  $("#portfolio-site1a").addClass("portfolio-appear");
   $("#portfolio-site2").addClass("portfolio-appear");
   $("#portfolio-site3").addClass("portfolio-ppear");
   $("#portfolio-site4").addClass("portfolio-appear");
