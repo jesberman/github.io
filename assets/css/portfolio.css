@@ -178,6 +178,28 @@ padding-bottom: 300px;
   transform: scale(1.2)
 }
 
+#portfolio-site1a {
+  /* float: left; 
+  width: 33%;
+  background-color: #2CD1D8; */
+
+  padding-bottom: 100px;
+  float:left; 
+  background-color: #EEF2F2;
+  height: 300px; 
+  width: 300px;
+}
+
+#portfolio-image-1a {
+  width: 95%;
+  transition: 1s;
+  margin-bottom: 0%;
+}
+
+#portfolio-image-1a:hover {
+  transform: scale(1.2)
+}
+
 #portfolio-site2 {
   /* float: left; 
   width: 33%;
@@ -498,6 +520,9 @@ padding-bottom: 300px;
 /* *********************Custom Media Queries********************************************* */
 
 @media screen and (max-width: 1560px) {
+  #portfolio {
+    padding-bottom: 1060px;
+  }
 
   #footer1{
     height: 170px;
@@ -530,7 +555,7 @@ padding-bottom: 300px;
 @media screen and (max-width: 1040px) {
 
   #portfolio {
-    padding-bottom: 1100px;
+    padding-bottom: 1360px;
   }
 
   #footer1{
@@ -565,7 +590,7 @@ padding-bottom: 300px;
 @media screen and (max-width: 780px) {
 
   #portfolio {
-    padding-bottom: 1100px;
+    padding-bottom: 1400px;
   }
 
   #footer1{
@@ -591,10 +616,10 @@ padding-bottom: 300px;
   }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 690px) {
 
   #portfolio {
-    padding-bottom: 2100px;
+    padding-bottom: 2600px;
   }
 
 }
@@ -603,7 +628,7 @@ padding-bottom: 300px;
 
 
   #portfolio {
-    padding-bottom: 2000px;
+    padding-bottom: 2700px;
   }
 
   #footer1{
@@ -624,10 +649,10 @@ padding-bottom: 300px;
 
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 300px) {
 
   #portfolio {
-    padding-bottom: 1900px;
+    padding-bottom: 2700px;
   }
 
 }
