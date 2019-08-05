@@ -80,6 +80,7 @@ $("#portfolio-select-bar-1").click(function () {
 
   $("#portfolio-site1").addClass("portfolio-appear");
   $("#portfolio-site1a").addClass("portfolio-appear");
+  $("#portfolio-site1b").addClass("portfolio-appear");
   $("#portfolio-site2").addClass("portfolio-appear");
   $("#portfolio-site3").addClass("portfolio-appear");
   $("#portfolio-site4").addClass("portfolio-appear");
@@ -87,6 +88,7 @@ $("#portfolio-select-bar-1").click(function () {
 
   $("#portfolio-site1").removeClass("portfolio-disappear");
   $("#portfolio-site1a").removeClass("portfolio-disappear");
+  $("#portfolio-site1b").removeClass("portfolio-disappear");
   $("#portfolio-site2").removeClass("portfolio-disappear");
   $("#portfolio-site3").removeClass("portfolio-disappear");
   $("#portfolio-site4").removeClass("portfolio-disappear");
@@ -103,6 +105,7 @@ $("#portfolio-select-bar-2").click(function () {
 
   $("#portfolio-site1").addClass("portfolio-appear");
   $("#portfolio-site1a").addClass("portfolio-disappear");
+  $("#portfolio-site1b").addClass("portfolio-disappear");
   $("#portfolio-site2").addClass("portfolio-disappear");
   $("#portfolio-site3").addClass("portfolio-disappear");
   $("#portfolio-site4").addClass("portfolio-disappear");
@@ -110,6 +113,7 @@ $("#portfolio-select-bar-2").click(function () {
 
   $("#portfolio-site1").removeClass("portfolio-disappear");
   $("#portfolio-site1a").removeClass("portfolio-appear");
+  $("#portfolio-site1b").removeClass("portfolio-appear");
   $("#portfolio-site2").removeClass("portfolio-appear");
   $("#portfolio-site3").removeClass("portfolio-appear");
   $("#portfolio-site4").removeClass("portfolio-appear");

@@ -200,6 +200,24 @@ padding-bottom: 300px;
   transform: scale(1.2)
 }
 
+#portfolio-site1b {
+  padding-bottom: 100px;
+  float:left; 
+  background-color: #EEF2F2;
+  height: 300px; 
+  width: 300px;
+}
+
+#portfolio-image-1b {
+  width: 95%;
+  transition: 1s;
+  margin-bottom: 0%;
+}
+
+#portfolio-image-1b:hover {
+  transform: scale(1.2)
+}
+
 #portfolio-site2 {
   /* float: left; 
   width: 33%;
@@ -619,7 +637,7 @@ padding-bottom: 300px;
 @media screen and (max-width: 690px) {
 
   #portfolio {
-    padding-bottom: 2600px;
+    padding-bottom: 3000px;
   }
 
 }
@@ -628,7 +646,7 @@ padding-bottom: 300px;
 
 
   #portfolio {
-    padding-bottom: 2700px;
+    padding-bottom: 3000px;
   }
 
   #footer1{
@@ -652,7 +670,7 @@ padding-bottom: 300px;
 @media screen and (max-width: 300px) {
 
   #portfolio {
-    padding-bottom: 2700px;
+    padding-bottom: 3000px;
   }
 
 }
